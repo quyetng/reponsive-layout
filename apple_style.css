@@ -1,0 +1,166 @@
+.topbar {
+  background-color: #292d33;
+  padding: 5px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.topbar a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+.infor1 {
+  text-align: center;
+  background-color: #0071e3;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: white;
+}
+
+.infor2 {
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.fakeimg1 {
+  width: 100%;
+  background-color: #292d33;
+}
+
+.fakeimg2 {
+  width: 100%;
+  background-color: white;
+}
+
+.iphoneSE {
+  background-color: #292d33;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.iphoneSE a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.iphone11 {
+  background-color: white;
+  //color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.iphone11 a {
+  padding: 30px;
+  text-decoration: none;
+}
+
+.ipad {
+  background-color: #fafafa;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 20px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.ipad a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.fakeimg3 {
+  background-color: #fafafa;
+}
+
+.row {
+  display: flex;
+  //background-color: white
+
+}
+.column-left {
+  flex: 50%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-right: 10px;
+}
+
+.column-right {
+  flex: 50%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-left: 10px;
+
+}
+
+.column-left a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.column-right a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.fakeimg4 {
+  background-color: #f2f2f2;
+
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding-bottom: 30px;
+}
+
+.infor {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.footer-row {
+  display: flex;
+}
+.col {
+  flex: 20%;
+}
+
+.col a {
+  text-decoration: none;
+  color: gray;
+  padding: 40px;
+}
+
+@media (max-width:700px) {
+  .topbar, .row, .footer-row {
+      flex-direction: column
+  }
+
+
+
+
+}
+
+/* @media screen and (max-width: 700px) {
+
+  .col {
+    width: 100%;
+    flex: 100%;
+  }
+} */
