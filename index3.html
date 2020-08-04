@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    .left {
+      width: 20%;
+      padding: 20px;
+      background-color: #2196F3;
+      float: left;
+    }
+
+    .main {
+      width: 60%;
+      float: left;
+      padding: 20%;
+    }
+    .right {
+      width: 20%;
+      padding: 20px;
+      background-color: #4CAF50;;
+      float: left;
+    }
+    @media screen and (max-width:800px) {
+      .left, .main, .right {
+        width: 100%
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="left">
+    Left menu
+  </div>
+  <div class="main">
+    main menu
+  </div>
+  <div class="right">
+    right menu
+  </div>
+
+  <hr>
+
+  <div class="">
+    <h2>Responsive Image</h2>
+    <p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the browser window. Resize the browser window to see the effect.</p>
+    <img src="img_girl.jpg" style="width:100%;" alt="">
+    <img src="img_girl.jpg" style="max-width:100%;height:auto;">
+    <h1 style="font-size:10vw;">Responsive Text</h1>
+
+    <p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+    <p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+    <p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+  </div>
+
+
+</body>
+
+</html>

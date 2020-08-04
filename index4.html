@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+
+
+
+    .main {
+      /* background-color:#f1f1f1;
+      padding:20px;
+      float:left;
+      width:60%;  */
+
+
+      background-color:#f1f1f1;
+      width: 60%;
+      padding: 20px;
+      float: left;
+
+    }
+
+    .right {
+      background-color:#4CAF50;
+      padding:20px;
+      float:left;
+      width:20%; /* The width is 20%, by default */
+    }
+  .left {
+      width: 20%;
+      padding: 20px;
+      background-color: #2196F3;
+      float: left;
+    }
+  /*
+    .main {
+      width: 60%;
+      background-color:#f1f1f1;
+      float: left;
+      padding: 20%;
+    }
+
+    .right {
+      width: 20%;
+      padding: 20px;
+      background-color: #4CAF50;
+
+      float: left;
+    } */
+
+    /* @media (max-width: 700px) {
+
+      .left,
+      .main,
+      .right {
+        width: 100%
+      }
+    } */
+    @media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  </style>
+</head>
+
+<body>
+  <h2>Media Queries</h2>
+  <p>Resize the browser window.</p>
+
+  <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+
+  <div class="left">
+    <p>Left menu</p>
+  </div>
+  <div class="main">
+    <p>main menu</p>
+  </div>
+  <div class="right">
+    <p>right menu</p>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
