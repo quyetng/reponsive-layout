@@ -3,6 +3,8 @@
   padding: 5px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+  //position: fixed;
+  //width: 100%;
 
 }
 
@@ -15,6 +17,10 @@
   color: white;
 }
 
+.topbar a:hover {
+  text-decoration: none;
+  color: white;
+}
 .infor1 {
   text-align: center;
   background-color: #0071e3;
@@ -22,6 +28,8 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   color: white;
+  //position: relative;
+  //top:60px;
 }
 
 .infor2 {
