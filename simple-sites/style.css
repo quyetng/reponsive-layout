@@ -1,0 +1,49 @@
+.fakeimg {
+  width: 500px;
+  height: 500px;
+  background-color: #f2f2f2
+}
+
+.row {
+  display: flex;
+
+}
+
+.row a {
+  text-decoration: none;
+  color: #6C6C6C;
+  font-family: sans-serif;
+  padding: 4px;
+  font-size: 15px;
+  //flex:30%
+}
+.col-left {
+  flex: 20%;
+  padding-left: 100px;
+  //margin: 100px;
+  //flex-direction: column;
+
+}
+
+.col-main {
+  flex: 40%;
+}
+.col-right {
+  flex: 40%;
+
+}
+
+.topbar {
+  padding-top: 50px;
+}
+
+.contact {
+  color: #6C6C6C;
+  font-family: sans-serif;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
